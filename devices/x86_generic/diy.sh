@@ -10,7 +10,7 @@ sed -i 's/DEFAULT_PACKAGES +=/DEFAULT_PACKAGES += kmod-usb-hid kmod-mmc kmod-sdh
 
 sed -i 's/kmod-r8169/kmod-r8168/' target/linux/x86/image/generic.mk
 
-mv -f tmp/r81* feeds/MzWrt-packages/
+mv -f tmp/r81* feeds/MzWrt/
 
 sed -i 's/256/1024/g' target/linux/x86/image/Makefile
 
