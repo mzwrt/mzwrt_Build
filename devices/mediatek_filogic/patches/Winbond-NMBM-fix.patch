@@ -1,11 +1,4 @@
-From 0560802d2f5c2bb4346551950e806f77944cf419 Mon Sep 17 00:00:00 2001
-From: Mikhail Zhilkin <csharper2005@gmail.com>
-Date: Sun, 17 Nov 2024 16:30:31 +0000
-Subject: [PATCH] kernel: quick fix for nmbm with Winbond W25N01KV
 
-Fixes: https://github.com/openwrt/openwrt/issues/16972
-
-Signed-off-by: Mikhail Zhilkin <csharper2005@gmail.com>
 ---
  target/linux/generic/files/drivers/mtd/nand/mtk_bmt_nmbm.c | 7 ++++++-
  1 file changed, 6 insertions(+), 1 deletion(-)
