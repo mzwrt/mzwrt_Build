@@ -1,7 +1,4 @@
-From 208ce83ac5b5405c3e221c1c3d24cca4fab94f9e Mon Sep 17 00:00:00 2001
-From: Chen Minqiang <ptpt52@gmail.com>
-Date: Tue, 22 Oct 2024 07:32:00 +0800
-Subject: [PATCH] mediatek: init add cmcc-mr3000d-ciq-256m
+
 
 ---
  .../uboot-envtools/files/mediatek_filogic     |   1 +
