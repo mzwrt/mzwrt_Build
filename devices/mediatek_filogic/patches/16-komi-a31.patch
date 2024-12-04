@@ -1,7 +1,4 @@
-From 7c939560f726f6cc5ebb2750a7dbd58bc36f2ecf Mon Sep 17 00:00:00 2001
-From: abandon-xyz <1484451453@qq.com>
-Date: Thu, 10 Aug 2023 17:07:43 +0800
-Subject: [PATCH] mediatek: filogic: add support for KONKA KOMI A31
+
 
 Signed-off-by: Chen Minqiang <ptpt52@gmail.com>
 ---
