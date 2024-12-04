@@ -1,18 +1,4 @@
-From 2d813c84eb52371ee7222c502b85867c8891aac5 Mon Sep 17 00:00:00 2001
-From: Bohdan Chubuk <chbgdn@gmail.com>
-Date: Mon, 11 Nov 2024 02:04:29 +0200
-Subject: [PATCH] generic: 6.6: mtd: spinand: add support for FORESEE
- F35SQA001G
 
-Add support for FORESEE F35SQA001G SPI NAND.
-
-Similar to F35SQA002G, but differs in capacity.
-Datasheet:
-  -  https://cdn.ozdisan.com/ETicaret_Dosya/704795_871495.pdf
-
-Tested on Xiaomi AX3000T flashed with OpenWRT.
-
-Signed-off-by: Bohdan Chubuk <chbgdn@gmail.com>
 ---
  ...d-add-support-for-FORESEE-F35SQA001G.patch | 37 +++++++++++++++++++
  1 file changed, 37 insertions(+)
