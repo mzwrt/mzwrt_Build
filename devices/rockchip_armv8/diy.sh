@@ -27,9 +27,9 @@ sed -i "/KernelPackage,ptp/d" package/kernel/linux/modules/other.mk
 #	   -e "s/configs\/advantech-\(.*-.*_defconfig\)/configs\/\1/" \
 #	   package/boot/uboot-rockchip/patches/*
 
-mv -f tmp/r8125 feeds/mzwrt_package/
+mv -f tmp/r8125 feeds/MzWrt-packages/
 
-rm -rf target/linux/rockchip/armv8/base-files/etc/uci-defaults/13_opkg_update package/feeds/mzwrt_package/pcat-manager
+rm -rf target/linux/rockchip/armv8/base-files/etc/uci-defaults/13_opkg_update package/feeds/MzWrt-packages/pcat-manager
 
 sed -i -e 's,kmod-r8168,kmod-r8169,g' target/linux/rockchip/image/armv8.mk
 sed -i -e 's,wpad-openssl,wpad-basic-mbedtls,g' target/linux/rockchip/image/armv8.mk
