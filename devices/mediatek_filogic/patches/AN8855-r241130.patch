@@ -1,7 +1,4 @@
-From 401c3c22aab4b09918b43d09c2e90fea2e4a5841 Mon Sep 17 00:00:00 2001
-From: Dim Fish <dimfish@gmail.com>
-Date: Fri, 11 Oct 2024 19:25:29 +0300
-Subject: [PATCH] mediatek: add Airoha AN8855 gigabit switch driver
+
 
 New revisions of Xiaomi AX3000T with 1.0.84+ stock firmware contain new hardware.
 This commit add support for Airoha AN8855 gigabit switch driver with 6.6 kernel patches
