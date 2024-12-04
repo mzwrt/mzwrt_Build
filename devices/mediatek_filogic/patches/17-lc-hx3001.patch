@@ -1,7 +1,4 @@
-From 5eacf09258839ccda9172962287727ab8825f90b Mon Sep 17 00:00:00 2001
-From: Chen Minqiang <ptpt52@gmail.com>
-Date: Sat, 16 Dec 2023 07:39:20 +0800
-Subject: [PATCH] mediatek: add IMOU LC-HX3001 (uboot layout)
+
 
 ---
  .../mt7981b-imou-lc-hx3001.dts    | 239 ++++++++++++++++++
