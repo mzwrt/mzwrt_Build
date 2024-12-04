@@ -1,10 +1,4 @@
-From 09255a2b23bc65dc0629ef4688146c1b93bcf73a Mon Sep 17 00:00:00 2001
-From: developer <developer@mediatek.com>
-Date: Wed, 16 Oct 2024 08:47:21 +0800
-Subject: [PATCH] Remove ACK when TXS is lost.
 
-Change-Id: I3a8a3aee48a0d735932b07e804bc3592d724fcd8
-Reviewed-on: https://gerrit.mediatek.inc/c/openwrt/feeds/mtk_openwrt_feeds/+/9758591
 ---
  ...6-do-not-report-ACK-when-TXS-is-lost.patch | 22 +++++++++++++++++++
  1 file changed, 22 insertions(+)
