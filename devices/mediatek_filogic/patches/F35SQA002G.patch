@@ -1,17 +1,4 @@
-From 9385022b129b05d1196357638b044711cbc6a253 Mon Sep 17 00:00:00 2001
-From: Bohdan Chubuk <chbgdn@gmail.com>
-Date: Mon, 11 Nov 2024 01:57:31 +0200
-Subject: [PATCH] generic: mtd: spinand: add support for FORESEE F35SQA002G
 
-Add support for FORESEE F35SQA002G SPI NAND.
-Datasheet:
-  https://www.longsys.com/uploads/LM-00006FORESEEF35SQA002GDatasheet_1650183701.pdf
-
-Refresh all affected patch with make target/linux/refresh.
-
-Signed-off-by: Martin Kurbanov <mmkurbanov@salutedevices.com>
-Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
-Signed-off-by: Bohdan Chubuk <chbgdn@gmail.com>
 ---
  ...d-add-support-for-FORESEE-F35SQA002G.patch | 146 ++++++++++++++++++
  ...flip_threshold-to-75-of-ECC-strength.patch |   2 +-
