@@ -1,12 +1,4 @@
-From 39c824f846ceca5281ee5f3ddbf92627076bdb5e Mon Sep 17 00:00:00 2001
-From: Tianling Shen <cnsztl@immortalwrt.org>
-Date: Tue, 2 Apr 2024 20:26:45 +0800
-Subject: [PATCH] mediatek: switch to fitblk for cmcc rax3000m
 
-Use the new fitblk driver.
-
-Tested-by: Yangyu Chen <cyy@cyyself.name>
-Signed-off-by: Tianling Shen <cnsztl@immortalwrt.org>
 ---
  .../uboot-envtools/files/mediatek_filogic     | 11 +--------
  .../patches/437-add-cmcc_rax3000m.patch       |  2 +-
