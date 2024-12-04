@@ -1,7 +1,4 @@
-From 3d31be189645a68591b59c855b885fdbca77c7af Mon Sep 17 00:00:00 2001
-From: Chen Minqiang <ptpt52@gmail.com>
-Date: Sun, 8 Sep 2024 15:16:16 +0800
-Subject: [PATCH] mediatek: init add NRadio C8-660
+
 
 Signed-off-by: Chen Minqiang <ptpt52@gmail.com>
 ---
